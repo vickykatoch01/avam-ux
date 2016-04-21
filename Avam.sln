@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demos.UI", "Demos.UI\Demos.UI.csproj", "{7EE0DA95-1A0D-47A7-8866-85CD43F7CE60}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avam.UI.Host", "Demos.UI\Avam.UI.Host.csproj", "{7EE0DA95-1A0D-47A7-8866-85CD43F7CE60}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{9463F063-A821-40DA-8DB8-860914D1A1B3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UICore", "UICore", "{A1DB5B5D-6D27-4495-88A2-4E06B10E0842}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avam.Core", "Avam.Core\Avam.Core.csproj", "{1B0CB105-BA0A-479D-B742-8B3F07F198AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,8 +21,15 @@ Global
 		{7EE0DA95-1A0D-47A7-8866-85CD43F7CE60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EE0DA95-1A0D-47A7-8866-85CD43F7CE60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EE0DA95-1A0D-47A7-8866-85CD43F7CE60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B0CB105-BA0A-479D-B742-8B3F07F198AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B0CB105-BA0A-479D-B742-8B3F07F198AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B0CB105-BA0A-479D-B742-8B3F07F198AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B0CB105-BA0A-479D-B742-8B3F07F198AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1B0CB105-BA0A-479D-B742-8B3F07F198AA} = {A1DB5B5D-6D27-4495-88A2-4E06B10E0842}
 	EndGlobalSection
 EndGlobal
